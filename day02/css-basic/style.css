@@ -1,0 +1,25 @@
+h1 {
+    color: aquamarine;
+}
+
+p {
+    color: blue;
+}
+/* là id có tính ghi đè */
+#para {
+    color: brown;
+}
+/* là class */
+.para-1{
+    color: blueviolet;
+}
+.heading{
+    color: aliceblue;
+}
+h2.para-1.heading{
+
+}
+h1 + h2.para-1.heading{
+
+}
+body h1 + h2.para-1.heading{}

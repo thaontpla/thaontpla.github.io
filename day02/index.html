@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=t, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        table, tr, td, th {
+            border: 1px solid black;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Nguyen A</td>
+                <td>Nhan vien</td>
+                <td>20k</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Nguyen B</td>
+                <td>Nhan vien</td>
+                <td>30k</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <table>
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Nguyen A</td>
+                <td>Nhan vien</td>
+                <td>20k</td>
+            </tr>
+            <tr>
+                <td rowspan="2">2</td>
+                <td rowspan="2">Nguyen B</td>
+                <td>Nhan vien</td>
+                <td>30k</td>
+            </tr>
+            <tr>
+                <td>Giam Doc</td>
+                <td>300k</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="3">Danh sách ca si</th>
+            </tr>
+            <tr>
+                <th>STT</th>
+                <th>Ho ten</th>
+                <th>email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">1</td>
+                <td rowspan="2">Nguyen A</td>
+                <td>thao@gmail.com</td>
+            </tr>
+            <tr>
+                <td>thao@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <form action="">
+        <label for="">Ho va ten</label>
+        <input type="text" placeholder="Nguyen Van A"><br>
+        <label for="">Password</label>
+        <input type="password"><br>
+        <label for="">Ghi chu</label>
+        <textarea name="" id="" cols="30" rows="10"></textarea> <br>
+        
+        <label for="">Gioi Tinh</label>
+        <input type="radio" name="gender" id="male">
+        <label for="male">Nam</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Nu</label> <br>
+
+        <label for="">Ngon Ngu</label>
+        <input type="checkbox" name="language" id="English">
+        <label for="English">English</label>
+        <input type="checkbox" name="language" id="Korean">
+        <label for="Korean">Korean</label>
+        <br>
+
+        <label for="">Nam sinh</label>
+        <select>
+            <option value="">2000</option>
+            <option value="">2001</option>
+            <option value="">2002</option>
+        </select>
+
+    </form>
+
+</body>
+</html>
