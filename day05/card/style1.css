@@ -21,8 +21,7 @@ a{
 }
 
 .container {
-    box-sizing: border-box;
- 
+    width: 100%;
 }
 
 /* herder style*/
@@ -30,9 +29,6 @@ a{
     background-color: #30598c;
     color: #fff;
     box-shadow: 0 4px 4px 0 rgb(0 0 0 / 25%);
-    position: fixed;
-    top: 0px;
-    width: 100%;
     height: 62px;
 }
 
@@ -40,6 +36,7 @@ a{
     padding: 0 30px; 
     /* cách trên dưới là 0 và trái phải 30, dãn nội dụng ko cho sát lề */
     height: 100%;
+    font-size: 20px;
 }
 
 .header-inner {
@@ -69,6 +66,12 @@ a{
     height: 62px;
     display: flex;
     align-items: center;
+
+    cursor: pointer;
+}
+
+.menu .main-menu .menu-item:hover {
+    color: #c4c4c4;
 }
 
 .sub-menu {
@@ -144,26 +147,30 @@ a{
 .row {
     display: flex;
     flex-wrap: wrap;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 #footer{
     background-color: #30598c;
-    color: #fff;
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
     line-height: 30px;
     font-size: 13px;
-    padding-left: 15px;
+    width: 100%;
 }
 
 .card-item {
     flex-basis: 33.33%;
-    padding: 20px;
+    padding: 10px;
 }
 
 .content {
-    margin: 20px
+    width: 100%;
+    color: #fff;
+    padding: 30px;
+    font-size: 20px;
 }
 
 .card {

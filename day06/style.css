@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 300px;
+    height: 200px;
+    background-color: black;
+
+    /* transition-property: all;
+    transition-duration: 1s;
+    transition-delay: 1s; */
+
+    transition: all 1s 1s;
+}
+
+.box:hover {
+    width: 500px;
+    height: 400px;
+}
+
+.content {
+    width: 600px;
+    background-color: brown;
+    padding: 20px;
+    margin: auto; 
+    /* áp dụng đc thẻ inline ra giữa còn thẻ block thì ko */
+    overflow: hidden;
+}
+
+.content h2 {
+    position: relative;
+    right: 0px;
+    transition: all 1s;
+    /* thằng nào biến đổi áp dụng thằng đó */
+}
+
+.content:hover h2 {
+    position: relative;
+    right: 600px;
+}
+
+.content p {
+    position: relative;
+    left: 0px;
+    transition: all 1s;
+    /* thằng nào biến đổi áp dụng thằng đó */
+}
+
+.content:hover p {
+    position: relative;
+    left: 600px;
+}
