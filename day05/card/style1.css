@@ -22,6 +22,7 @@ a{
 
 .container {
     width: 100%;
+    padding-top: 62px;
 }
 
 /* herder style*/
@@ -30,6 +31,7 @@ a{
     color: #fff;
     box-shadow: 0 4px 4px 0 rgb(0 0 0 / 25%);
     height: 62px;
+    width: 100%;
 }
 
 .header-container {
