@@ -1,0 +1,17 @@
+.container {
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    font-size: 60px;
+    color: red;
+}
+
+
+
