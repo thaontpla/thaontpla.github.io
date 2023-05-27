@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    
+}
+
+.menu {
+    background-color: antiquewhite;
+    width: 20%;
+}
+
+.photo {
+    background-color: aqua;
+    width: 30%;
+}
+
+.content {
+    background-color: aquamarine;
+    width: 50%;
+}
