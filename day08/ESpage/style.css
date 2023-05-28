@@ -13,9 +13,6 @@ i {
     padding: 5px;
 }
 
-ul {
-    list-style: none;
-}
 
 .container {
     display: flex;
@@ -70,64 +67,52 @@ div a:hover:not(.active) {
 	to { transform: scale(1.4); }
 }
 
-
-/* photo css */
-.photo {
-    position: relative;
+/* experience css */
+.experience {
+    background-color:rgb(247, 247, 239);
     margin-left: 20%;
-    background-color:rgb(247, 247, 239);
-    width: 30%;
-   
+    width: 40%;
+    
 }
 
-.photo img {
-    height: 100%;
-    object-fit: cover;
-    width: 100%;
-    border-radius: 5px;
+.box {
+    font-size: 8px;
+    padding: 10px;
 }
-/* content css */
-.content {
-    position: relative;
-    background-color:rgb(247, 247, 239);
-    width: 50%;
-    padding: 40px 30px;
+
+.item1 {
     display: flex;
-    flex-direction: column;
-
 }
-
-.content .information {
+.item2 {
     display: flex;
-    justify-content: center;
-    padding-top: 20px;
+}
+.item3 {
+    display: flex;
+}
+.item4 {
+    display: flex;
 }
 
-.content ul {
-    padding: 9px;
-}
-
-.content ul li {
-    padding: 5px;
-    animation: body 8s;
-}
-
-.content h2 {
-    animation: body 3s;
-}
-
-.content h4 {
+.date {
+    padding-right: 20px;
     font-style: italic;
-    animation: body 3s;
 }
 
-@keyframes body {
-    0% {
-        right: 200px;
-        opacity: 0;
-    }
-    100% {
-        right: 0;
-        opacity: 1;
-    }
+td {
+    padding: 7px;
+    vertical-align: text-top;
+}
+
+td p {
+    padding-bottom: 3px;
+}
+
+/* skill css */
+.skill {
+    background-color:rgb(247, 247, 239);
+    width: 40%;
+}
+
+.title {
+    text-align: center;
 }
