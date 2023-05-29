@@ -13,16 +13,14 @@ i {
     padding: 5px;
 }
 
-li {
-    padding: 3px;
-}
-
 
 .container {
     display: flex;
-    font-size: 20px;
+    font-size: 12px;
     font-family: 'Roboto', sans-serif;
-    height: 100vh; 
+    height: 100vh;
+   
+    
 }
  
 /* menu css */
@@ -31,7 +29,7 @@ li {
     display: flex;
     flex-direction: column;
 
-    padding: 20px;  
+    padding: 16px;  
 
     position: fixed;
     left: 0;
@@ -43,15 +41,14 @@ li {
 
 .menu h3 {
     padding-bottom: 25px;
-    padding-top: 55px;
     font-style: italic;
 }
 
 .menu a {
-    padding: 15px;
+    padding: 6px;
 }
 .menu span {
-    padding: 25px;
+    padding: 6px;
 }
 
 .active {
@@ -79,9 +76,8 @@ div a:hover:not(.active) {
 }
 
 .box {
-    font-size: 16px;
+    font-size: 8px;
     padding: 10px;
-    animation: body 3s;
 }
 
 .item1 {
@@ -119,17 +115,4 @@ td p {
 
 .title {
     text-align: center;
-    padding-top: 25px;
-    animation: beat 5s;
-}
-
-@keyframes body {
-    0% {
-        right: 200px;
-        opacity: 0;
-    }
-    100% {
-        right: 0;
-        opacity: 1;
-    }
 }
