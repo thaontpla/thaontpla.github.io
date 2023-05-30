@@ -13,17 +13,20 @@ i {
     padding: 5px;
 }
 
+li {
+    padding: 3px;
+}
+
 ul {
     list-style: none;
 }
 
+
 .container {
     display: flex;
-    font-size: 12px;
+    font-size: 20px;
     font-family: 'Roboto', sans-serif;
-    height: 100vh;
-   
-    
+    height: 100vh; 
 }
  
 /* menu css */
@@ -32,7 +35,7 @@ ul {
     display: flex;
     flex-direction: column;
 
-    padding: 16px;  
+    padding: 20px;  
 
     position: fixed;
     left: 0;
@@ -44,14 +47,15 @@ ul {
 
 .menu h3 {
     padding-bottom: 25px;
+    padding-top: 55px;
     font-style: italic;
 }
 
 .menu a {
-    padding: 6px;
+    padding: 15px;
 }
 .menu span {
-    padding: 6px;
+    padding: 25px;
 }
 
 .active {

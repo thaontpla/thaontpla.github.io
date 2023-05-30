@@ -13,13 +13,20 @@ i {
     padding: 5px;
 }
 
+li {
+    padding: 3px;
+}
+
+ul {
+    list-style: none;
+}
+
 
 .container {
     display: flex;
-    flex-direction: column;
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
-    /* height: 100vh;  */
+    height: 100vh; 
 }
  
 /* menu css */
@@ -67,49 +74,57 @@ div a:hover:not(.active) {
 	to { transform: scale(1.4); }
 }
 
-/* container css */
-.container {
-    background-color:rgb(247, 247, 239);
+
+/* photo css */
+.photo {
+    position: relative;
     margin-left: 20%;
-    width: 80%; 
+    background-color:rgb(247, 247, 239);
+    width: 30%;
+   
 }
 
-/* box css */
-.box {
+.photo img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 5px;
+}
+/* content css */
+.content {
+    position: relative;
+    background-color:rgb(247, 247, 239);
+    width: 50%;
+    padding: 70px 30px;
     display: flex;
     flex-direction: column;
-    padding-left: 110px;
-    
-    padding-top: 30px;
+
 }
 
-.squadware {
+.content .information {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    padding-top: 50px;
+}
+
+.sub {
+    display: flex;
+    padding: 8px;
+}
+
+.sub .title-infor {
+    padding-right: 10px;
+}
+
+.content p {
+    font-size: 25px;
+    font-style: italic;
     animation: body 3s;
-}
-
-.expense {
-    animation: body 7s;
-}
-
-.waste {
-    animation: body 11s;
-}
-
-.gate-pass {
-    animation: body 15s;
-}
-
-.item {
-    padding: 7px 80px 7px 0px;
-    vertical-align: top;
 }
 
 @keyframes body {
     0% {
-        right: 200px;
-        opacity: -1;
-    }
-    50% {
         right: 200px;
         opacity: 0;
     }
