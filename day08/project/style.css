@@ -14,6 +14,7 @@ i {
 }
 
 
+
 .container {
     display: flex;
     flex-direction: column;
@@ -79,29 +80,37 @@ div a:hover:not(.active) {
     display: flex;
     flex-direction: column;
     padding-left: 110px;
-    
+    padding-bottom: 15px;
     padding-top: 30px;
 }
 
+.core-banking {
+    padding: 20px 0px 20px 0px;
+    animation: body 1s;
+}
+
 .squadware {
+    padding: 20px 0px 20px 0px;
     animation: body 3s;
 }
 
 .expense {
-    animation: body 7s;
+    padding: 20px 0px 20px 0px;
+    animation: body 5s;
 }
 
 .waste {
-    animation: body 11s;
+    padding: 20px 0px 20px 0px;
+    animation: body 7s;
 }
 
 .gate-pass {
-    animation: body 15s;
+    padding: 20px 0px 20px 0px;
+    animation: body 10s;
 }
 
 .item {
     padding: 7px 80px 7px 0px;
-    vertical-align: top;
 }
 
 @keyframes body {

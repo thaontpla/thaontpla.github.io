@@ -22,7 +22,7 @@ li {
     display: flex;
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
-    height: 100vh; 
+    /* height: 100vh;  */
 }
  
 /* menu css */
@@ -79,7 +79,7 @@ div a:hover:not(.active) {
 }
 
 .box {
-    font-size: 16px;
+    /* font-size: 16px; */
     padding: 10px;
     animation: body 3s;
 }
