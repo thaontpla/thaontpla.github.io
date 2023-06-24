@@ -54,6 +54,11 @@ ul {
 .menu a {
     padding: 15px;
 }
+
+.menu .media-social a{
+    padding: 5px;
+}
+
 .menu span {
     padding: 25px;
 }

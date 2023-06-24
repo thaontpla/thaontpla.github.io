@@ -54,6 +54,11 @@ ul {
 .menu a {
     padding: 15px;
 }
+
+.menu .media-social a{
+    padding: 5px;
+}
+
 .menu span {
     padding: 25px;
 }
@@ -103,8 +108,9 @@ div a:hover:not(.active) {
 
 .content .information {
     display: flex;
-    justify-content: center;
-    padding-top: 20px;
+    /* justify-content: center; */
+    /* padding-top: 20px; */
+    padding: 20px 20px 20px 40px;
 }
 
 .content ul {
