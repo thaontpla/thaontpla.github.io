@@ -84,7 +84,6 @@ div a:hover:not(.active) {
 }
 
 .box {
-    /* font-size: 16px; */
     padding: 10px;
     animation: body 3s;
 }

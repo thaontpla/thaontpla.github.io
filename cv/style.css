@@ -106,6 +106,10 @@ div a:hover:not(.active) {
 
 }
 
+.title-infor{
+    font-style: italic;
+}
+
 .content .information {
     display: flex;
     /* justify-content: center; */
